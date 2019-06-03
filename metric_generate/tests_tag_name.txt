@@ -1,0 +1,4 @@
+dc local;dcdp;msc;ny
+host test1;test2;test3;test4
+env test;prod;pre;tech;preprod
+command devexp;alco;edi;compliance

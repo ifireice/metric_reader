@@ -1,0 +1,7 @@
+0 devexp;edi;alco;devops;compliance;abipank;market;crypto;taxi;avia;music;search;alisa;siri;nokia;aloe;work;auto;watercolor;dockler;jobs
+1 monitorig;backend;frontend;logs;alerting
+2 docker;rabbitmq;consul;elk;cassandra;graphite;prometheus;thanos;clickhouse;swarm;k8s;python;go;cpp
+3 pre;prod;test;preprod;tech;staging;local
+4 node1;i4d-test;pink;blue;red;test;graphite-ch1;tech-1;db-node;localhost
+5 cpu;la5;la10;la15;diskio;host1;events
+6 count;sum;avg;rate;histogram
