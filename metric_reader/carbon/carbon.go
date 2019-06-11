@@ -16,7 +16,7 @@ func GetURL(url string, metricName string, from time.Time, until time.Time) stri
 }
 
 func getAllTagNames(carbonURL string) ([]string, error) {
-	timeout := time.Duration(30 * time.Second)
+	timeout := time.Duration(60 * time.Second)
 	client := http.Client{
 		Timeout: timeout,
 	}
