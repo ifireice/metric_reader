@@ -16,11 +16,15 @@ func GetURL(url string, metricName string, from time.Time, until time.Time) stri
 }
 
 func getAllTagNames(carbonURL string) ([]string, error) {
+	timeout := time.Duration(30 * time.Second)
+	client := http.Client{
+		Timeout: timeout,
+	}
 
 	var tagNames []string
 
 	tagsURL := fmt.Sprintf("%s/tags", carbonURL)
-	resp, err := http.Get(tagsURL)
+	resp, err := client.Get(tagsURL)
 	if err != nil {
 		return make([]string, 0), err
 	}
